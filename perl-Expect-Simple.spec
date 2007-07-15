@@ -6,7 +6,7 @@
 %define	pdir	Expect
 %define	pnam	Simple
 Summary:	Expect::Simple - wrapper around the Expect module
-#Summary(pl.UTF-8):	
+Summary(pl.UTF-8):	Expect::Simple - wrapper dla modułu Expect
 Name:		perl-Expect-Simple
 Version:	0.02
 Release:	1
@@ -25,12 +25,14 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Expect::Simple is a wrapper around the Expect module which
-should suffice for simple applications.  It hides most of the
+should suffice for simple applications. It hides most of the
 Expect machinery; the Expect object is available for tweaking if
 need be.
 
-# %description -l pl.UTF-8
-# TODO
+%description -l pl.UTF-8
+Expect::Simple to wrapper dla modułu Expect. Powinien wystarczyć dla
+prostych aplikacji. Ukrywa większość maszynerii Expecta; obiekt
+Expect jest dostępny w razie potrzeby.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
