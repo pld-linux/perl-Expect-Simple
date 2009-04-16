@@ -20,19 +20,19 @@ BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-Expect
 %endif
+Requires:	perl-dirs >= 2.1-11
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Expect::Simple is a wrapper around the Expect module which
-should suffice for simple applications. It hides most of the
-Expect machinery; the Expect object is available for tweaking if
-need be.
+Expect::Simple is a wrapper around the Expect module which should
+suffice for simple applications. It hides most of the Expect
+machinery; the Expect object is available for tweaking if need be.
 
 %description -l pl.UTF-8
 Expect::Simple to wrapper dla modułu Expect. Powinien wystarczyć dla
-prostych aplikacji. Ukrywa większość maszynerii Expecta; obiekt
-Expect jest dostępny w razie potrzeby.
+prostych aplikacji. Ukrywa większość maszynerii Expecta; obiekt Expect
+jest dostępny w razie potrzeby.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
