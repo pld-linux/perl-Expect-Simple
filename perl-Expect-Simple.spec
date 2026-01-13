@@ -8,7 +8,7 @@ Summary:	Expect::Simple - wrapper around the Expect module
 Summary(pl.UTF-8):	Expect::Simple - wrapper dla modułu Expect
 Name:		perl-Expect-Simple
 Version:	0.04
-Release:	1
+Release:	2
 License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Expect/%{pdir}-%{pnam}-%{version}.tar.gz
